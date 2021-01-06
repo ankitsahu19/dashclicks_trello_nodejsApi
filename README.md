@@ -87,8 +87,9 @@ Postman
    
    2. URL: http://localhost:3000/Tasks/:id
       Method: POST (Add task of user-id)
-        Body: 
-        {
+      
+            Body: 
+            {
                 {
                     "task": "T3"
                 },
@@ -100,8 +101,9 @@ Postman
             
    3. URL: http://localhost:3000/Tasks/:id/tasks/:taskid
       Method: PUT (Update task from database)
-        Body: {
-            {
+      
+             Body: {
+             {
                "task": "T13"
              },
              {
