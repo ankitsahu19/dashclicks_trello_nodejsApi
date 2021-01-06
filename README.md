@@ -40,14 +40,14 @@ Two Api :
  
 Postman
     Install Postman to interact with REST API
-    Create a message with:
     
    Users: 
-   
    1. URL: http://localhost:3000/users
       Method: GET (get all data from database)
+      
+      
    
-        2. URL: http://localhost:3000/users
+   2. URL: http://localhost:3000/users
       Method: POST (Add user to database)
         Body: {
             "name": "Aman",
@@ -60,7 +60,8 @@ Postman
                 }
             ]
             }
-        3. URL: http://localhost:3000/users/:id
+            
+   3. URL: http://localhost:3000/users/:id
       Method: PUT (Update user from database)
       Body: {
             "name": "Aman",
@@ -74,10 +75,44 @@ Postman
             ]
         }
       
-        4.  URL: http://localhost:3000/users 
-              http://localhost:3000/users/:id
-           
-      Method: DELETE (get all user from database)
+   4.  URL: http://localhost:3000/users delete all users
+        http://localhost:3000/users/:id delete user of id
+        Method: DELETE
+        
+   Task: 
+   1. URL: http://localhost:3000/Tasks/:id
+      Method: GET (get all task from database of user-id)
+      
+      
+   
+   2. URL: http://localhost:3000/Tasks/:id
+      Method: POST (Add task of user-id)
+        Body: {
+            
+                {
+                    "task": "T3"
+                },
+                {
+                    "task": "T4"  
+                }
+            
+            }
+            
+   3. URL: http://localhost:3000/Tasks/:id/tasks/:taskid
+      Method: PUT (Update task from database)
+      Body: 
+                {
+                    "task": "T13"
+                },
+                {
+                    "task": "T4"  
+                }
+            
+        
+      
+   4.  URL:  http://localhost:3000/Tasks/:id/tasks delete all tasks
+        http://localhost:3000/Tasks/:id/tasks/:taskid delete specific task of user -id of 
+        Method: DELETE
             
         
         
