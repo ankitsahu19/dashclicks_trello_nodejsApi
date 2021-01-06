@@ -12,7 +12,7 @@ Task management system similar to Trello
 
 Running Locally
 
-    Make sure you have Node.js and the Heroku Toolbelt installed.
+    Make sure you have Node.js 
 
   1. git clone ghttps://github.com/ankitsahu19/dashclicks_trello_nodejsApi.git
   2. cd node-js-sample
