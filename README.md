@@ -49,7 +49,7 @@ Postman
    
    2. URL: http://localhost:3000/users
       Method: POST (Add user to database)
-        Body: {
+      Body: {
             "name": "Aman",
             "tasks": [
                 {
@@ -87,8 +87,7 @@ Postman
    
    2. URL: http://localhost:3000/Tasks/:id
       Method: POST (Add task of user-id)
-        Body: {
-            
+      Body: {
                 {
                     "task": "T3"
                 },
@@ -100,15 +99,14 @@ Postman
             
    3. URL: http://localhost:3000/Tasks/:id/tasks/:taskid
       Method: PUT (Update task from database)
-      Body: 
-                {
-                    "task": "T13"
-                },
-                {
-                    "task": "T4"  
-                }
-            
-        
+      Body: {
+            {
+               "task": "T13"
+             },
+             {
+                "task": "T4"  
+             }
+            }        
       
    4.  URL:  http://localhost:3000/Tasks/:id/tasks delete all tasks
         http://localhost:3000/Tasks/:id/tasks/:taskid delete specific task of user -id of 
