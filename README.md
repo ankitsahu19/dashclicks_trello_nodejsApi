@@ -33,6 +33,7 @@ Your app should now be running on localhost:3000.
 
 Two Api :
        1. http://localhost:3000/users - Get, Post, Put, Delete
+       
        2. http://localhost:3000/tasks - Get, Post, Put, Delete
        
        
@@ -46,9 +47,9 @@ Postman
    1. URL: http://localhost:3000/users
       Method: GET (get all data from database)
    
-   2. URL: http://localhost:3000/users
-      Method: POST (Add user from database)
-      Body: {
+        2. URL: http://localhost:3000/users
+      Method: POST (Add user to database)
+        Body: {
             "name": "Aman",
             "tasks": [
                 {
@@ -58,9 +59,8 @@ Postman
                     "task": "T4"  
                 }
             ]
-        }
-        
-    3. URL: http://localhost:3000/users/:id
+            }
+        3. URL: http://localhost:3000/users/:id
       Method: PUT (Update user from database)
       Body: {
             "name": "Aman",
@@ -74,9 +74,15 @@ Postman
             ]
         }
       
-     4.  URL: http://localhost:3000/users 
+        4.  URL: http://localhost:3000/users 
               http://localhost:3000/users/:id
            
       Method: DELETE (get all user from database)
+            
+        
+        
+       
+        
+  
    
 
