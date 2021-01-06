@@ -49,6 +49,7 @@ Postman
    
    2. URL: http://localhost:3000/users
       Method: POST (Add user to database)
+      
         Body: {
             "name": "Aman",
             "tasks": [
@@ -63,6 +64,7 @@ Postman
             
    3. URL: http://localhost:3000/users/:id
       Method: PUT (Update user from database)
+      
         Body: {
             "name": "Aman",
             "tasks": [
